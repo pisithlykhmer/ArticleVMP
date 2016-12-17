@@ -14,6 +14,7 @@
 		EC47C23C1E04ED2900B0976C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC47C2341E04ED2900B0976C /* Info.plist */; };
 		EC47C23D1E04ED2900B0976C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC47C2371E04ED2900B0976C /* LaunchScreen.storyboard */; };
 		EC47C23E1E04ED2900B0976C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC47C2381E04ED2900B0976C /* Main.storyboard */; };
+		EC47C2401E04EEC100B0976C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C23F1E04EEC100B0976C /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EC47C2341E04ED2900B0976C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC47C2371E04ED2900B0976C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC47C2381E04ED2900B0976C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EC47C23F1E04EEC100B0976C /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		ECB3B58D1E04DD820082260F /* ArticleMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				EC47C22D1E04ED2900B0976C /* ViewController.swift */,
+				EC47C23F1E04EEC100B0976C /* HomeTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC47C2401E04EEC100B0976C /* HomeTableViewController.swift in Sources */,
 				EC47C2391E04ED2900B0976C /* AppDelegate.swift in Sources */,
 				EC47C23A1E04ED2900B0976C /* ViewController.swift in Sources */,
 			);
