@@ -7,9 +7,22 @@
 //
 
 import UIKit
+import Kingfisher
+
+protocol HomeTableViewInterface {
+    func articleLoad(article: [Article])
+    func articlePosted()
+    func deleteData(id: Int)
+    func DeleteContentSuccess(withMessage message:String)
+}
 
 class HomeTableViewController: UITableViewController {
+    @IBOutlet weak var articleTitleLabel: UILabel!
 
+    @IBOutlet weak var articleImageView: UIImageView!
+
+    @IBOutlet weak var articleDescriptionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

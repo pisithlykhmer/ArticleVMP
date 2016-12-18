@@ -17,6 +17,10 @@
 		EC47C2401E04EEC100B0976C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C23F1E04EEC100B0976C /* HomeTableViewController.swift */; };
 		EC47C2421E05045C00B0976C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C2411E05045C00B0976C /* Constant.swift */; };
 		EC47C2441E0504D900B0976C /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C2431E0504D900B0976C /* Article.swift */; };
+		EC47C2491E050B1D00B0976C /* HomeTableviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C2481E050B1D00B0976C /* HomeTableviewPresenter.swift */; };
+		EC47C24B1E050EC100B0976C /* HomeTableVIewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C24A1E050EC100B0976C /* HomeTableVIewService.swift */; };
+		EC47C24D1E05103200B0976C /* EditorViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C24C1E05103200B0976C /* EditorViewPresenter.swift */; };
+		EC86EFA81E0519C300654004 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86EFA71E0519C300654004 /* EditorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		EC47C23F1E04EEC100B0976C /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		EC47C2411E05045C00B0976C /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		EC47C2431E0504D900B0976C /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		EC47C2481E050B1D00B0976C /* HomeTableviewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableviewPresenter.swift; sourceTree = "<group>"; };
+		EC47C24A1E050EC100B0976C /* HomeTableVIewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableVIewService.swift; sourceTree = "<group>"; };
+		EC47C24C1E05103200B0976C /* EditorViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewPresenter.swift; sourceTree = "<group>"; };
+		EC86EFA71E0519C300654004 /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
 		ECB3B58D1E04DD820082260F /* ArticleMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,6 +85,7 @@
 			children = (
 				EC47C22D1E04ED2900B0976C /* ViewController.swift */,
 				EC47C23F1E04EEC100B0976C /* HomeTableViewController.swift */,
+				EC86EFA71E0519C300654004 /* EditorViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -108,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				EC47C2411E05045C00B0976C /* Constant.swift */,
+				EC47C24A1E050EC100B0976C /* HomeTableVIewService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -137,6 +147,15 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
+		EC47C2451E05095900B0976C /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				EC47C2481E050B1D00B0976C /* HomeTableviewPresenter.swift */,
+				EC47C24C1E05103200B0976C /* EditorViewPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
 		ECB3B5841E04DD820082260F = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +177,7 @@
 		ECB3B58F1E04DD820082260F /* ArticleMVP */ = {
 			isa = PBXGroup;
 			children = (
+				EC47C2451E05095900B0976C /* Presenters */,
 				EC47C22A1E04ED2900B0976C /* Application */,
 				EC47C22C1E04ED2900B0976C /* Controller */,
 				EC47C22E1E04ED2900B0976C /* Library */,
@@ -295,7 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC47C2491E050B1D00B0976C /* HomeTableviewPresenter.swift in Sources */,
 				EC47C2401E04EEC100B0976C /* HomeTableViewController.swift in Sources */,
+				EC47C24D1E05103200B0976C /* EditorViewPresenter.swift in Sources */,
+				EC86EFA81E0519C300654004 /* EditorViewController.swift in Sources */,
+				EC47C24B1E050EC100B0976C /* HomeTableVIewService.swift in Sources */,
 				EC47C2391E04ED2900B0976C /* AppDelegate.swift in Sources */,
 				EC47C23A1E04ED2900B0976C /* ViewController.swift in Sources */,
 				EC47C2421E05045C00B0976C /* Constant.swift in Sources */,
