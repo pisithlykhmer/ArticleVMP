@@ -11,7 +11,7 @@
 		EC47C2391E04ED2900B0976C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C22B1E04ED2900B0976C /* AppDelegate.swift */; };
 		EC47C23A1E04ED2900B0976C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C22D1E04ED2900B0976C /* ViewController.swift */; };
 		EC47C23B1E04ED2900B0976C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC47C2311E04ED2900B0976C /* Assets.xcassets */; };
-		EC47C23C1E04ED2900B0976C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC47C2341E04ED2900B0976C /* Info.plist */; };
+		EC47C23C1E04ED2900B0976C /* Inf1o.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC47C2341E04ED2900B0976C /* Inf1o.plist */; };
 		EC47C23D1E04ED2900B0976C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC47C2371E04ED2900B0976C /* LaunchScreen.storyboard */; };
 		EC47C23E1E04ED2900B0976C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC47C2381E04ED2900B0976C /* Main.storyboard */; };
 		EC47C2401E04EEC100B0976C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C23F1E04EEC100B0976C /* HomeTableViewController.swift */; };
@@ -21,6 +21,8 @@
 		EC47C24B1E050EC100B0976C /* HomeTableVIewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C24A1E050EC100B0976C /* HomeTableVIewService.swift */; };
 		EC47C24D1E05103200B0976C /* EditorViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47C24C1E05103200B0976C /* EditorViewPresenter.swift */; };
 		EC86EFA81E0519C300654004 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86EFA71E0519C300654004 /* EditorViewController.swift */; };
+		ECA9B2271E0657CD00340FC4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECA9B2261E0657CD00340FC4 /* Info.plist */; };
+		ECA9B2291E06584600340FC4 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9B2281E06584600340FC4 /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +32,7 @@
 		EC47C22B1E04ED2900B0976C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC47C22D1E04ED2900B0976C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC47C2311E04ED2900B0976C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC47C2341E04ED2900B0976C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC47C2341E04ED2900B0976C /* Inf1o.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Inf1o.plist; sourceTree = "<group>"; };
 		EC47C2371E04ED2900B0976C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC47C2381E04ED2900B0976C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EC47C23F1E04EEC100B0976C /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		EC47C24A1E050EC100B0976C /* HomeTableVIewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableVIewService.swift; sourceTree = "<group>"; };
 		EC47C24C1E05103200B0976C /* EditorViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewPresenter.swift; sourceTree = "<group>"; };
 		EC86EFA71E0519C300654004 /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		ECA9B2261E0657CD00340FC4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA9B2281E06584600340FC4 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		ECB3B58D1E04DD820082260F /* ArticleMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +74,14 @@
 				50FFC6E6325CADC6DF67AB08 /* Pods_ArticleMVP.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC462ADC1E0637780027D3EF /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				ECA9B2281E06584600340FC4 /* HomeTableViewCell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		EC47C22A1E04ED2900B0976C /* Application */ = {
@@ -125,7 +137,8 @@
 		EC47C2331E04ED2900B0976C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC47C2341E04ED2900B0976C /* Info.plist */,
+				ECA9B2261E0657CD00340FC4 /* Info.plist */,
+				EC47C2341E04ED2900B0976C /* Inf1o.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -133,6 +146,7 @@
 		EC47C2351E04ED2900B0976C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC462ADC1E0637780027D3EF /* CustomCell */,
 				EC47C2361E04ED2900B0976C /* Storyboard */,
 			);
 			path = View;
@@ -256,7 +270,8 @@
 				EC47C23E1E04ED2900B0976C /* Main.storyboard in Resources */,
 				EC47C23B1E04ED2900B0976C /* Assets.xcassets in Resources */,
 				EC47C23D1E04ED2900B0976C /* LaunchScreen.storyboard in Resources */,
-				EC47C23C1E04ED2900B0976C /* Info.plist in Resources */,
+				ECA9B2271E0657CD00340FC4 /* Info.plist in Resources */,
+				EC47C23C1E04ED2900B0976C /* Inf1o.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +336,7 @@
 				EC86EFA81E0519C300654004 /* EditorViewController.swift in Sources */,
 				EC47C24B1E050EC100B0976C /* HomeTableVIewService.swift in Sources */,
 				EC47C2391E04ED2900B0976C /* AppDelegate.swift in Sources */,
+				ECA9B2291E06584600340FC4 /* HomeTableViewCell.swift in Sources */,
 				EC47C23A1E04ED2900B0976C /* ViewController.swift in Sources */,
 				EC47C2421E05045C00B0976C /* Constant.swift in Sources */,
 				EC47C2441E0504D900B0976C /* Article.swift in Sources */,

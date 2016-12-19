@@ -41,6 +41,7 @@ class HomeTableViewService {
                         for responseData in jsonData {
                             
                             self.articles.append(Article(JSON: responseData as! [String : Any])!)
+                            //print("Count Data \(self.articles.count)")
                             
                         }
                         
@@ -267,6 +268,8 @@ class HomeTableViewService {
                         
                     }
                     self.homeTableViewPresenterInterface?.DeleteContentSuccess(withMessage: "Delete Success")
+                    self.articles.removeAll()
+                    self.fetchData(page: 1, limit: 15)
                     
                 }
             }

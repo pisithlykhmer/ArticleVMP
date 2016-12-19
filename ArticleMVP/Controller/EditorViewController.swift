@@ -22,9 +22,10 @@ protocol EditorViewInterface {
 // to use imagePick(2 protocol needed)
 class EditorViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    //  Mark IBOulet
     @IBOutlet weak var articleImageView: UIImageView!
-    @IBOutlet weak var articleTitleTextField: UITextField!
+    
+    @IBOutlet weak var articleTitleTextField: UITextView!
+    
     @IBOutlet weak var articleDescriptionTextView: UITextView!
     
     //  Mark Object
@@ -54,11 +55,11 @@ class EditorViewController: UIViewController,UIImagePickerControllerDelegate, UI
         
     }
     
-    //step2
+   //step2
+
     @IBAction func imagePickerButton(_ sender: Any) {
         present(imagePicker, animated: true, completion: nil)
     }
-    
     
     //step3
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
@@ -75,13 +76,11 @@ class EditorViewController: UIViewController,UIImagePickerControllerDelegate, UI
     }
     
     //step4
-    @IBAction func saveButton(_ sender: Any) {
-        
-        // Upload Image
+
+    @IBAction func Done(_ sender: Any) {
         let imageData = UIImagePNGRepresentation(articleImageView.image!)
         uploadImage(image: imageData!)
     }
-    
     
     func loadNoteData() {
         // titleNavigation.title = "Edit Note"

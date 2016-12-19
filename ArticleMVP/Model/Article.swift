@@ -12,7 +12,6 @@ import ObjectMapper
 class Article: Mappable {
     var id: Int?
     var title: String?
-    var createdDate: String?
     var description: String?
     var image: String?
     
@@ -23,7 +22,6 @@ class Article: Mappable {
     func mapping(map: Map) {
         id <- map["ID"]
         title <- map["TITLE"]
-        createdDate <- map["CREATED_DATE"]
         description <- map["DESCRIPTION"]
         image <- map["IMAGE"]
     }
