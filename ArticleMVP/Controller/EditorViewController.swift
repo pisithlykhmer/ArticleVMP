@@ -31,7 +31,6 @@ class EditorViewController: UIViewController,UIImagePickerControllerDelegate, UI
     //  Mark Object
     var imagePicker: UIImagePickerController!
     var eventHandler: EditorViewPresenter!
-    
     var homeTableViewInterface : HomeTableViewInterface?
     var imageUrl: String!
     var articleToEdit: Article!
@@ -51,10 +50,8 @@ class EditorViewController: UIViewController,UIImagePickerControllerDelegate, UI
         if articleToEdit != nil {
             loadNoteData()
         }
-        
-        
     }
-    
+   
    //step2
 
     @IBAction func imagePickerButton(_ sender: Any) {
@@ -80,6 +77,8 @@ class EditorViewController: UIViewController,UIImagePickerControllerDelegate, UI
     @IBAction func Done(_ sender: Any) {
         let imageData = UIImagePNGRepresentation(articleImageView.image!)
         uploadImage(image: imageData!)
+        _ = navigationController?.popViewController(animated: true)
+        
     }
     
     func loadNoteData() {
@@ -126,10 +125,9 @@ extension EditorViewController: EditorViewInterface {
     }
     
     func postContentSuccess(withMessage message: String) {
+    
         print("Message \(message)")
         
-        
     }
-    
     
 }

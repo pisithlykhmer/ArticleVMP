@@ -61,15 +61,6 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ikx-1s-uDR">
-                                        <rect key="frame" x="153" y="353" width="88" height="49"/>
-                                        <state key="normal" title="Done">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="Done:" destination="BYZ-38-t0r" eventType="touchUpInside" id="umH-zb-hwh"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBT-1W-OD4">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="212"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,24 +68,33 @@
                                             <action selector="imagePickerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tAH-XQ-zrc"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ikx-1s-uDR">
+                                        <rect key="frame" x="143" y="367" width="88" height="49"/>
+                                        <state key="normal" title="Done">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Done:" destination="BYZ-38-t0r" eventType="touchUpInside" id="umH-zb-hwh"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="QwG-sw-MEw" secondAttribute="trailing" constant="239" id="2Cu-5h-VVe"/>
+                                    <constraint firstItem="Ikx-1s-uDR" firstAttribute="top" secondItem="RQh-6D-EOK" secondAttribute="bottom" constant="36" id="6yg-O5-U0B"/>
                                     <constraint firstItem="xC3-44-vZy" firstAttribute="leading" secondItem="tRO-r4-gYi" secondAttribute="leading" id="Bmy-RP-cBA"/>
                                     <constraint firstItem="Pap-kX-uoH" firstAttribute="bottom" secondItem="QwG-sw-MEw" secondAttribute="bottom" id="Bnh-RI-E3K"/>
                                     <constraint firstAttribute="trailing" secondItem="Pap-kX-uoH" secondAttribute="trailing" id="JRh-bn-b3C"/>
                                     <constraint firstItem="QwG-sw-MEw" firstAttribute="top" secondItem="oVN-Z2-xG6" secondAttribute="bottom" constant="2" id="MNZ-wn-3J0"/>
                                     <constraint firstAttribute="trailing" secondItem="RQh-6D-EOK" secondAttribute="trailing" id="SCY-jM-WoJ"/>
                                     <constraint firstItem="xC3-44-vZy" firstAttribute="top" secondItem="QwG-sw-MEw" secondAttribute="bottom" constant="8" id="Vpd-h1-v0d"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ikx-1s-uDR" secondAttribute="trailing" constant="144" id="XLx-l1-QqR"/>
                                     <constraint firstAttribute="trailing" secondItem="xC3-44-vZy" secondAttribute="trailing" constant="239" id="bsj-Qj-gDh"/>
-                                    <constraint firstItem="Ikx-1s-uDR" firstAttribute="leading" secondItem="tRO-r4-gYi" secondAttribute="leading" constant="153" id="btC-Sb-7v3"/>
                                     <constraint firstItem="Pap-kX-uoH" firstAttribute="top" secondItem="oVN-Z2-xG6" secondAttribute="bottom" constant="2" id="d3a-0C-tIB"/>
+                                    <constraint firstItem="Ikx-1s-uDR" firstAttribute="leading" secondItem="tRO-r4-gYi" secondAttribute="leading" constant="143" id="i4c-kR-Eef"/>
                                     <constraint firstItem="oVN-Z2-xG6" firstAttribute="leading" secondItem="tRO-r4-gYi" secondAttribute="leading" id="j2q-OA-NkE"/>
                                     <constraint firstItem="Pap-kX-uoH" firstAttribute="leading" secondItem="tRO-r4-gYi" secondAttribute="leading" constant="135" id="js4-67-wMD"/>
-                                    <constraint firstItem="Ikx-1s-uDR" firstAttribute="top" secondItem="RQh-6D-EOK" secondAttribute="bottom" constant="36" id="mhG-iv-sdt"/>
                                     <constraint firstItem="QwG-sw-MEw" firstAttribute="leading" secondItem="tRO-r4-gYi" secondAttribute="leading" id="nWT-NE-UFU"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ikx-1s-uDR" secondAttribute="trailing" constant="134" id="pCs-rB-XnC"/>
                                     <constraint firstItem="RQh-6D-EOK" firstAttribute="bottom" secondItem="xC3-44-vZy" secondAttribute="bottom" id="rtr-dj-8wE"/>
                                     <constraint firstItem="oVN-Z2-xG6" firstAttribute="top" secondItem="tRO-r4-gYi" secondAttribute="top" id="tug-oF-qGg"/>
                                     <constraint firstAttribute="trailing" secondItem="oVN-Z2-xG6" secondAttribute="trailing" id="uer-pd-oc8"/>
@@ -102,6 +102,13 @@
                                     <constraint firstItem="RQh-6D-EOK" firstAttribute="top" secondItem="Pap-kX-uoH" secondAttribute="bottom" constant="8" id="wJf-uc-CDk"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ome-G1-o3c">
+                                <rect key="frame" x="16" y="11" width="72" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back Home">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
